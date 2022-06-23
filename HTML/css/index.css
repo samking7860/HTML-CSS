@@ -1,0 +1,81 @@
+.container {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  /* height: 800px; */
+  /* justify-content: center;
+  align-content: center; */
+  /* width: 700px; */
+}
+.left-menu {
+  display: grid;
+  grid-template-columns: auto;
+}
+.login,
+.register,
+.forgot-pass {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h6 {
+  font-size: 15px;
+  margin-top: 10px;
+}
+
+.main-page {
+  display: grid;
+}
+.header {
+  text-align: center;
+  width: 90%;
+  font-size: 30px;
+}
+
+.search {
+  width: 90%;
+  height: 30px;
+  background-color: lightGrey;
+  border: none;
+  margin-left: 5px;
+  margin-right: 20px;
+}
+
+input:focus {
+  outline: none;
+}
+
+.mail,
+.pass {
+  margin-bottom: 20px;
+  width: 90%;
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  background-color: lightGrey;
+  padding-left: 10px;
+}
+
+.button {
+  width: 91.5%;
+  margin-top: 20px;
+  background-color: rgb(25, 219, 25);
+  padding-right: 0%;
+}
+
+.login-button {
+  width: 100%;
+  background-color: rgb(25, 219, 25);
+  border: none;
+  padding: 15px 0% 15px 0px;
+  font-size: 18px;
+  color: white;
+  font-weight: bold;
+}
+
+.forgot-pass-text {
+  width: 90%;
+  text-align: center;
+  margin-top: 40px;
+  color: rgb(111, 107, 107);
+}
